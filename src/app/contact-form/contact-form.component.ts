@@ -30,9 +30,6 @@ export class ContactFormComponent implements OnInit {
 
         var emailExp = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
 
-       
-
-       
         form.find('.validation').each(function () {
           const i = $(this);
           const rule = i.attr('data-rule');
